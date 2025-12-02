@@ -1,0 +1,83 @@
+body {
+  background: #0d0d0d;
+  color: #ffffff;
+}
+
+#welcome {
+  background: rgb(247, 247, 247);
+}
+
+#welcome p,
+#welcome h1 {
+  color: black;
+}
+
+#card-saldo,
+#card-invest,
+#card-desp {
+  background: #111111;
+  border: 1px solid rgba(106, 13, 173, 0.14);
+  border-radius: 10px;
+}
+
+.table thead th {
+  border-bottom: 0;
+}
+
+.table tbody tr td {
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+@media (max-width: 576px) {
+  #welcome {
+    padding: 18px;
+  }
+  .display-6 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  #welcome {
+    padding: 22px;
+  }
+  .display-6 {
+    font-size: 1.75rem;
+  }
+}
+
+#operacoes {
+  justify-content: right;
+}
+
+#inicio {
+  color: red;
+}
+
+#fim-pagina {
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: -30px;
+  background-color: #f8f9fa;
+}
+
+#textos-fim-pagina {
+  margin: 0;
+}
+
+.rodape-titulo {
+  color: #000;
+}
+
+.rodape-subtitulo {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+#saldo-positivo {
+  color: #5ad85a;
+}
+
+#transacoes {
+  margin-top: 20px;
+}
